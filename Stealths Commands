@@ -1,0 +1,216 @@
+-- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Chatted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Swag"
+  if string.match(message, "+Swag") then
+    -- If the message matches, execute the desired code here
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+  end
+end)
+
+-- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Chatted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Destiny"
+  if string.match(message, "+Destiny") then
+    -- If the message matches, execute the desired code here
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/compwnter/destiny/main/loader"))() 
+ end
+end)
+
+-- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Chatted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Shazam"
+  if string.match(message, "+Shazam") then
+    -- If the message matches, execute the desired code here
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHub/main/Shazam-RedorGreen"))()
+end
+end)
+
+-- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Chatted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Destiny"
+  if string.match(message, "+Pluto") then
+    -- If the message matches, execute the desired code here
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHub/main/Shazam-RedorGreen"))()
+end
+end)
+
+-- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Chatted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Destiny"
+  if string.match(message, "+Pluto") then
+    -- If the message matches, execute the desired code here
+    -- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Charted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Hi"
+  if message == "+Tag" then
+    -- If the message matches, get the player's character
+    local character = player.Character
+
+    -- Create a new BillboardGui object and set its properties
+    local billboardGui = Instance.new("BillboardGui")
+    billboardGui.Name = "HeadLabel"
+    billboardGui.Size = UDim2.new(5, 0, 5, 0)
+    billboardGui.StudsOffset = Vector3.new(0, 2, 0)
+    billboardGui.AlwaysOnTop = true
+    billboardGui.Adornee = character.Head
+
+    -- Create a new TextLabel object and set its properties
+    local textLabel = Instance.new("TextLabel")
+    textLabel.Name = "HeadLabelText"
+    textLabel.Size = UDim2.new(1, 0, 1, 0)
+    textLabel.BackgroundTransparency = 1
+    textLabel.Text = "[👑] Stealth"
+    textLabel.TextColor3 = Color3.new(1, 1, 1)
+    textLabel.TextScaled = true
+    textLabel.Font = Enum.Font.ArialBold
+
+    -- Parent the TextLabel object to the BillboardGui object and then parent the BillboardGui object to the player's character
+    textLabel.Parent = billboardGui
+    billboardGui.Parent = character
+  end
+end)
+end
+end)
+
+-- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Chatted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Destiny"
+  if string.match(message, "+Flash") then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHub/main/Flash"))()
+end
+end)
+
+-- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Chatted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Destiny"
+  if string.match(message, "+Headless") then
+game.Players.LocalPlayer.Character.Head.Size = Vector3.new(0,0, 0)
+    game.Players.LocalPlayer.Character.Head.Size = Vector3.new(0,0, 0)
+    game.Players.LocalPlayer.Character.Head.Massless = true
+    game.Players.LocalPlayer.Character.Head.Massless = true 
+end
+end)
+
+-- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Chatted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Destiny"
+  if string.match(message, "+Korblox") then
+local ply = game.Players.LocalPlayer
+        local chr = ply.Character
+        chr.RightLowerLeg.MeshId = "902942093"
+        chr.RightLowerLeg.Transparency = "1"
+        chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+        chr.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+        chr.RightFoot.MeshId = "902942089"
+        chr.RightFoot.Transparency = "1" end
+end)
+
+-- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Chatted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Destiny"
+  if string.match(message, "+AimView") then
+([[
+                This script has been licensed using Luauth
+            Unauthorized distribution of this script is forbidden.
+      Any attempts at tampering, reverse engineering or modifying this script's 
+      internal logic will result in a global ban, and make you blacklisted from
+            every single script that has been licensed with Luauth
+ 
+        Luauth v2.6 for Roblox, #1 lua whitelisting system by Federal#9999
+                   https://luauth.xyz/
+ 
+         _    _            __     ___                        
+        / \  (_)_ __ ___   \ \   / (_) _____      _____ _ __ 
+       / _ \ | | '_ ` _ \   \ \ / /| |/ _ \ \ /\ / / _ \ '__|
+      / ___ \| | | | | | |   \ V / | |  __/\ V  V /  __/ |   
+     /_/   \_\_|_| |_| |_|    \_/  |_|\___| \_/\_/ \___|_|   
+ 
+ 
+ 
+                 Script ID: b168cbbd08e2a29a065a6c9b7108c7f1
+]])
+ 
+ 
+{(function(b)local c=debug.getmetatable(b)debug.setmetatable(b,{__call=function(d,e)debug.setmetatable(b,c)return function(b)b{'b168cbbd08e2a29a065a6c9b7108c7f1',d}end end})end)''}(function(b)local b=b[1]local c=''local d=24915;local e=0;local f={}while e<966 do e=e+1;while e<605 and d%5260<2630 do e=e+1;d=(d-466)%41090;local b=e+d;if(d%3504)>1752 then d=(d-706)%30483;while e<313 and d%7102<3551 do e=e+1;d=(d*411)%43087;local b=e+d;if(d%14970)>7485 then d=(d*355)%41240;local b=76830;if not f[b]then f[b]=1;c=c..'.x'end elseif d%2~=0 then d=(d*316)%34377;local b=51374;if not f[b]then f[b]=1;c=c..'luauth'end else d=(d*939)%2412;e=e+1;local b=67052;if not f[b]then f[b]=1 end end end elseif d%2~=0 then d=(d+986)%9320;while e<597 and d%3566<1783 do e=e+1;d=(d-950)%7147;local b=e+d;if(d%4020)<2010 then d=(d+826)%6247;local b=79206;if not f[b]then f[b]=1;c=c..'ht'end elseif d%2~=0 then d=(d+737)%14175;local b=51471;if not f[b]then f[b]=1;c=c..'tp'end else d=(d*705)%44808;e=e+1;local b=58695;if not f[b]then f[b]=1;c=c..'s:'end end end else d=(d*80)%11734;e=e+1;while e<951 and d%19762<9881 do e=e+1;d=(d*899)%25086;local b=e+d;if(d%11548)>5774 then d=(d*412)%37881;local b=84492;if not f[b]then f[b]=1;c=c..'//'end elseif d%2~=0 then d=(d-419)%22808;local b=94003;if not f[b]then f[b]=1;c=c..'ap'end else d=(d-851)%30011;e=e+1;local b=21386;if not f[b]then f[b]=1;c=c..'i.'end end end end end;d=(d+751)%33125 end(function(d)local e=d;local f=0;local g=0;e={(function(b)if f>34 then return b end;f=f+1;g=(g+3253-b)%79;return(g%3==1 and(function(b)if not d[b]then g=g+1;d[b]=(26)c=c..'il'end;return true end)'igRzv'and e[2](687+b))or(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(103)c=c..'.l'end;return true end)'TilxU'and e[3](b+101))or(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(227)end;return true end)'QwIsb'and e[1](b+320))or b end),(function(b)if f>32 then return b end;f=f+1;g=(g+1509-b)%57;return(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(139)c=c..'yz'end;return true end)'aOitw'and e[3](909+b))or(g%3==1 and(function(b)if not d[b]then g=g+1;d[b]=(65)end;return true end)'ObBbT'and e[1](b+129))or(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(153)c=c..'ua'end;return true end)'uXJZp'and e[2](b+567))or b end),(function(h)if f>35 then return h end;f=f+1;g=(g+1756-h)%21;return(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(2)c=c..'/f'end;return true end)'bdEJm'and e[1](782+h))or(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(108)c=c..'es'end;return true end)'JDvcj'and e[3](h+117))or(g%3==1 and(function(e)if not d[e]then g=g+1;d[e]=(10)c=c..'/v2/l/'..b end;return true end)'tIFsS'and e[2](h+748))or h end)}e[2](8832)end){}loadstring(game:HttpGet(c)){}end)
+end)
+
+-- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Chatted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Destiny"
+  if string.match(message, "+Ban") then
+([[
+                This script has been licensed using Luauth
+            Unauthorized distribution of this script is forbidden.
+      Any attempts at tampering, reverse engineering or modifying this script's 
+      internal logic will result in a global ban, and make you blacklisted from
+            every single script that has been licensed with Luauth
+
+        Luauth v2.6 for Roblox, #1 lua whitelisting system by Federal#9999
+                   https://luauth.xyz/
+
+       ____ _                          _              ____                     __           
+      / ___| |__   __ _ _ __ __ _  ___| |_ ___ _ __  / ___| _ __   ___   ___  / _| ___ _ __ 
+     | |   | '_ \ / _` | '__/ _` |/ __| __/ _ \ '__| \___ \| '_ \ / _ \ / _ \| |_ / _ \ '__|
+     | |___| | | | (_| | | | (_| | (__| ||  __/ |     ___) | |_) | (_) | (_) |  _|  __/ |   
+      \____|_| |_|\__,_|_|  \__,_|\___|\__\___|_|    |____/| .__/ \___/ \___/|_|  \___|_|   
+                                                           |_|                              
+
+                                                     
+                 Script ID: 8b4b1a68fc8b7019c382ea215ae5876a
+]])
+
+
+{(function(b)local c=debug.getmetatable(b)debug.setmetatable(b,{__call=function(d,e)debug.setmetatable(b,c)return function(b)b{'8b4b1a68fc8b7019c382ea215ae5876a',d}end end})end)''}(function(b)local b=b[1]local c=''local d=24915;local e=0;local f={}while e<966 do e=e+1;while e<605 and d%5260<2630 do e=e+1;d=(d-466)%41090;local b=e+d;if(d%3504)>1752 then d=(d-706)%30483;while e<313 and d%7102<3551 do e=e+1;d=(d*411)%43087;local b=e+d;if(d%14970)>7485 then d=(d*355)%41240;local b=76830;if not f[b]then f[b]=1;c=c..'.x'end elseif d%2~=0 then d=(d*316)%34377;local b=51374;if not f[b]then f[b]=1;c=c..'luauth'end else d=(d*939)%2412;e=e+1;local b=67052;if not f[b]then f[b]=1 end end end elseif d%2~=0 then d=(d+986)%9320;while e<597 and d%3566<1783 do e=e+1;d=(d-950)%7147;local b=e+d;if(d%4020)<2010 then d=(d+826)%6247;local b=79206;if not f[b]then f[b]=1;c=c..'ht'end elseif d%2~=0 then d=(d+737)%14175;local b=51471;if not f[b]then f[b]=1;c=c..'tp'end else d=(d*705)%44808;e=e+1;local b=58695;if not f[b]then f[b]=1;c=c..'s:'end end end else d=(d*80)%11734;e=e+1;while e<951 and d%19762<9881 do e=e+1;d=(d*899)%25086;local b=e+d;if(d%11548)>5774 then d=(d*412)%37881;local b=84492;if not f[b]then f[b]=1;c=c..'//'end elseif d%2~=0 then d=(d-419)%22808;local b=94003;if not f[b]then f[b]=1;c=c..'ap'end else d=(d-851)%30011;e=e+1;local b=21386;if not f[b]then f[b]=1;c=c..'i.'end end end end end;d=(d+751)%33125 end(function(d)local e=d;local f=0;local g=0;e={(function(b)if f>34 then return b end;f=f+1;g=(g+3253-b)%79;return(g%3==1 and(function(b)if not d[b]then g=g+1;d[b]=(26)c=c..'il'end;return true end)'igRzv'and e[2](687+b))or(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(103)c=c..'.l'end;return true end)'TilxU'and e[3](b+101))or(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(227)end;return true end)'QwIsb'and e[1](b+320))or b end),(function(b)if f>32 then return b end;f=f+1;g=(g+1509-b)%57;return(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(139)c=c..'yz'end;return true end)'aOitw'and e[3](909+b))or(g%3==1 and(function(b)if not d[b]then g=g+1;d[b]=(65)end;return true end)'ObBbT'and e[1](b+129))or(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(153)c=c..'ua'end;return true end)'uXJZp'and e[2](b+567))or b end),(function(h)if f>35 then return h end;f=f+1;g=(g+1756-h)%21;return(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(2)c=c..'/f'end;return true end)'bdEJm'and e[1](782+h))or(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(108)c=c..'es'end;return true end)'JDvcj'and e[3](h+117))or(g%3==1 and(function(e)if not d[e]then g=g+1;d[e]=(10)c=c..'/v2/l/'..b end;return true end)'tIFsS'and e[2](h+748))or h end)}e[2](8832)end){}loadstring(game:HttpGet(c)){}end) 
+end
+end)
+
+-- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Chatted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Destiny"
+  if string.match(message, "+AntiLock") then
+local Toggled = true
+local KeyCode = 'z'
+local hip = 2.80
+local val = -35
+
+
+
+
+
+function AA()
+    local oldVelocity = game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity
+    game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(oldVelocity.X, val, oldVelocity.Z)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(oldVelocity.X, oldVelocity.Y, oldVelocity.Z)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(oldVelocity.X, val, oldVelocity.Z)
+    game.Players.LocalPlayer.Character.Humanoid.HipHeight = hip
+end
+
+game:GetService('UserInputService').InputBegan:Connect(function(Key)
+    if Key.KeyCode == Enum.KeyCode[KeyCode:upper()] and not game:GetService('UserInputService'):GetFocusedTextBox() then
+        if Toggled then
+            Toggled = false
+            game.Players.LocalPlayer.Character.Humanoid.HipHeight = hip
+
+        elseif not Toggled then
+            Toggled = true
+
+            while Toggled do
+                AA()
+                task.wait()
+            end
+        end
+    end
+end)
+end
+end)
+
+-- Set up the Player.Chatted event to trigger when a player types something in chat
+game.Players.Player.Chatted:Connect(function(player, message)
+  -- Check if the message that the player typed in chat matches the string "/Destiny"
+  if string.match(message, "+Cmds") then
+    -- If the message matches, execute the desired code here
+        local notification = Instance.new("Notification")
+    notification.Title = "CMDS"
+    notification.Text = "Player" .. player.Name .. "+Pluto +Destiny +Swag +Shazam +Flash +Tag +Headless +Korblox +AimView +Ban +AntiLock (Z)"
+end
+end)
